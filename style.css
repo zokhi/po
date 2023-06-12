@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white
+}
+
+.fio {
+    color:black
+}
+#myphot {
+    width: 300px;
+}
+
+.calendar td{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black
+}
+
+.calendar {
+    border-spacing: 0;
+}
+
+thead td,tfoot td {
+    background-color:black ;
+color: white;
+font-weight: bold; 
+text-align:center;
+}
+
+#prevmonch {
+    text-align: left;
+    border-right: 0;
+}
+
+#enpty {
+    border-right: 0;
+    border-left: 0;
+}
+
+#Nextmonch {
+    border-left: 0;
+    text-align: right;
+
+}
+label {
+    display: block;
+}
+label {
+    color: blue;
+
+}
+#AAA {
+ color: black;
+}
+    
+li {
+    font-size: 25px;
+    transition: 400ms;
+}
+li:hover {
+    font-weight: bold;
+    color: green;
+    font-size: 35px ;
+    
+}
+ul {
+    list-style-type: none;
+}
+li::before {
+    content: "";
+    display: inline-block; 
+    width: 20px; 
+    height: 20px;
+    background-image: url(./free-icon-instagram-733558.png);
+    background-size: contain;
+     margin-right: 20px;
+}
+td:nth-child(3n+1){
+    color: blue;
+}
+td:nth-child(3n){
+    color:rgb(5, 255, 5)
+}
+td:nth-child(3n+2){
+    color:gold
+}
+td:hover{
+    font-weight: bold;
+    color: rgb(184, 5, 65);
+    font-size: 30px;
+    transition: 100ms;
+
+}
+#AAA:hover{
+    font-weight: bold;
+    color: rgb(4, 254, 4);
+}
+#AA:hover{
+    font-weight: bold;
+    color: red;
+}

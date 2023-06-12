@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Первая Страница</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="fio">Абдуллаев</h1>
+    <h2 class="fio">Зохид</h2>
+    <h3 class="fio">Солижонович</h3>
+    <img src="./вфыв.jpg" id="myphot" alt="Моя фотка">
+    <p>Ученик 41 Потока Север</p>
+    <h2>Знания Языков:</h2>
+    <ul>
+        <li>Русский</li>
+        <li>Узбекский</li>
+    </ul>
+    <h2>Таблица</h2>
+   <table class="calendar">
+<thead>
+<tr>
+    <td colspan="7">МАЙ</td>
+</tr>
+<tr>
+<td>ПН</td>
+<td>ВТ</td>
+<td>СР</td>
+<td>ЧТ</td>
+<td>ПТ</td>
+<td>СТ</td>
+<td>ВС</td>
+
+</tr>
+</thead>
+<tbody>
+    <!--tr*5>td*7-->
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+       
+    </tr>
+</tbody>
+<tfoot>
+ <tr>
+    <td colspan="3" id="prevmonch">Апр</td>
+    <td id="enpty"></td>
+    <td colspan="3" id="Nextmonch">Инюнь </td>
+ </tr>
+</tfoot>
+   </table> 
+  <h2>Таблица</h2>
+  <table border="1" width="500">
+    <thead>
+        <tr>
+            <th width="1">Теги</th>
+            <th width="1">Описание</th>
+           <th>Синтаксис</th>
+            <th>Пример</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>body</td>
+            <td> представляет собой контент (содержимое) документа HTML. В документе может быть только один элемент </td>
+        </tr>
+        <tr>
+            <td>h1</td>
+            <td>Тег H1 — это HTML-заголовок, который чаще всего используется для разметки заголовка веб-страницы.</td>
+           
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td> элемент «Неупорядоченный список» HTML-элемент  используется для неупорядоченного списка - в частности для маркированного списка.</td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>Для создания нумерованного списка в HTML используется тег ol (ol сокращение от англ. ordered list - упорядоченный список),который информирует браузер,что все его содержимое,вплоть до закрывающего тега,представляет собой нумерованный список.</td>
+        </tr>
+        <tr>
+            <td>link</td>
+            <td>предназначен для подключения внешних файлов (шрифтов или стилей)</td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>Элемент img (от англ. image — изображение) предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG, SVG или PNG</td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>Элемент table служит контейнером для элементов, определяющих содержимое таблицы</td>
+        </tr>
+        <tr>
+            <td> tr </td>
+            <td>tr служит контейнером для создания строки таблицы.</td>
+        </tr>
+        <tr>
+            <td>td</td>
+            <td>Предназначен для создания одной ячейки таблицы. Тег td должен размещаться внутри контейнера tr, который в свою очередь располагается внутри тега table.</td>
+        </tr>
+        <tr>
+            <td>head</td>
+            <td>предназначен для хранения других элементов, цель которых — помочь браузеру в работе с данными</td>
+        </tr>
+        <tr>
+            <td>label</td>
+            <td> устанавливает связь между определенной меткой, в качестве которой обычно выступает текст, и элементом формы (input select,textarea).Такая связь необходима, чтобы изменять значения элементов формы при нажатии курсором мыши на текст</td>
+        </tr>
+        <tr>
+            <td>tfoot</td>
+            <td>Элемент tfoot предназначен для хранения одной или нескольких строк, которые представлены внизу таблицы. Хотя тег tfoot в исходном коде должен быть определен до тега tbody,браузеры отображают его в самом низу таблицы.</td>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>html является контейнером, который заключает в себе все содержимое веб-страницы</td>
+        </tr>
+       
+    </tbody>
+  </table>
+  <h2>Формы</h2>
+  <form action="#">
+  <label>
+    Имя:
+    <input type="text" name="Username">
+  </label>
+  <label>
+     Дата рождения:
+     <input type="date" name="birthday" value="male">
+  </label>
+  Пол:
+<label>
+    <input type="radio" name="gender" value="female">
+    М 
+</label>
+<label>
+<input type="radio" name="gender">
+    Ж
+</label>
+Страна:
+<select name="country">
+<option>Виберите Страну</option>
+<option value="uz">Узбекистан</option>
+<option value="other">Другое</option>
+</select>
+  <input type="submit">
+</form>
+<h2>Связаться Со мной:</h2>
+<form action="https://api.tehnikum.school/sms/sms.php" method="post">
+<label>
+    Имя:
+    <input type="tel" name="sms_text">
+</label>
+<label>
+    Телефон:
+    <input type="text" name="sms_phone">
+</label>
+<label>
+    Email:
+<input type="text" name="sms_email">
+</label>
+<label>
+    Тема для Обращения:
+    <input type="text" name="sms_text">
+</label>
+<input type="hidden" name="token" value="Students:1234567">
+<input type="submit" value="Отправить" id="AAA">
+<input type="submit" value="Сбросить" id="AA">
+</form>
+</body>
+</html>  
